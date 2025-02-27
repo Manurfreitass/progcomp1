@@ -1,7 +1,7 @@
 body {
     /* fonte do texto */
     font-family: Arial, sans-serif;
-    background-color: rgb(201, 125, 167);
+    background-color: rgb(125, 139, 219);
     /* usa modelo FlexBox, conceito de caixa para posicionamento */
     display: flex;
     justify-content: center; /* centraliza na horizontal */
@@ -17,7 +17,7 @@ body {
     box-shadow: 0 4px 8px ; /* sombra */
 }
 button {
-    background-color: rgb(218, 139, 175);
+    background-color: rgb(153, 155, 180);
     color: white; 
     border: none;
     /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
@@ -26,10 +26,6 @@ button {
 /* ao passar o mouse em cima do botão */
 button:hover {
     background-color: rgb(207, 207, 207);
-}
-
-.foto {
-    /* borda com cantos arredondados*/
     border-radius: 50%;
     /* largura */
     width: 100px;
@@ -38,4 +34,4 @@ button:hover {
     /* espaçamento externo abaixo */
     margin-bottom: 10px;
 }
- --
+ 

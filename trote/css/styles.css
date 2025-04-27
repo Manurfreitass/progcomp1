@@ -6,11 +6,11 @@ body {
     text-align: center;
 }
 header{
-    background: #28a745;
+    background: #3b28a7;
     color: white;
     /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
     padding: 15px 0; 
-    font-size: 24px;
+    font-size: 20px;
 }
 
 nav {
@@ -50,10 +50,10 @@ img {
     width: 80%;
     /* 20px em cima e em baixo e automática èsquerda e direto*/
     margin: 20px auto; 
-    background: white;
+    background: rgb(231, 233, 216);
     /* espaçamento interno é nos 4 lados */
-    padding: 0px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
     text-align: justify;
 }
 h2 {
@@ -90,52 +90,353 @@ table {
     background-color: red;
 }
 .campos {
-    margin: 20px;
+    margin: 10px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 30px;
-  }
 
-  .tabela-container {
-    width: fit-content;
+  
+  table {
     border-collapse: collapse;
-    border: 1px solid #000;
+    font-size: 15px; /* fonte do corpo */
+    margin: auto;
   }
 
   caption {
-    font-weight: bold;
-    padding: 8px;
     caption-side: top;
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   th, td {
-    border: 1px solid #000;
-    padding: 8px 12px;
+    border: 1px solid black;
+    padding: 4px 12px;
     text-align: left;
   }
 
   th {
     background-color: #003366;
-    color: white;
-  }
-
-  tr:nth-child(even) {
-    background-color: #fff;
-  }
-
-  tr:nth-child(odd) {
-    background-color: #f9f9f9;
+    color: rgb(31, 30, 30);
+    font-weight: bold;
   }
 
   .rodape {
-    font-size: 0.9em;
+    font-size: 1px;
     font-style: italic;
+    margin-top: 6px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+
+
+   
+
+  .caixa {
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #e6f0fa;
+  }
+
+  ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  .sublista {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .negrito {
+    font-weight: bold;
+  }
+
+  .meta {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .nota {
+    font-size: 11px;
     margin-top: 8px;
   }
+
+
+
+  
+  .tabela-pontuacao {
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid #999;
+  }
+
+  .tabela-pontuacao th {
+    background-color: #e6f0fa;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+  }
+
+  .tabela-pontuacao td {
+    background-color: #e6f0fa;
+    padding: 10px 15px;
+  }
+
+  .tabela-pontuacao ul {
+    list-style-type: circle;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .tabela-pontuacao li {
+    margin-bottom: 5px;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+  thead th {
+    background-color: #0b2c67;
+    color: white;
+    font-weight: bold;
+  }
+
+  .titulo {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+  .laranja { background-color: #ffc000; }
+  .preta { background-color: #000; color: white; }
+  .roxa { background-color: #b366cc; }
+  .verde { background-color: #99cc66; }
+  .vermelha { background-color: #f26c64; }
+  .cinza { background-color: #d9d9d9; }
+
+
+
+  .caixa {
+    background-color: #e6f0fa;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    width: fit-content;
+  }
+
+  .caixa strong {
+    font-weight: bold;
+  }
+
+  .caixa ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0 0 0;
+  }
+
+  .caixa li {
+    margin-bottom: 6px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 500px;
+  }
+
+  .desc {
+    flex: 1;
+  }
+
+  .pontos {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+
+
+
+  .importante {
+    background-color: #f9f9dc;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    max-width: 650px;
+  }
+
+  .importante strong {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .importante p {
+    margin: 8px 0;
+  }
+
+  .importante .check {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #003366;
+    color: white;
+}
+.laranja {
+    background-color: #FFA500;
+}
+.preta {
+    background-color: #000000;
+    color: white;
+}
+.roxa {
+    background-color: #9370DB;
+}
+.verde {
+    background-color: #90EE90;
+}
+.vermelha {
+    background-color: #FF6347;
+}
+
+
+.atencao-box {
+  background-color: #e6f0fa;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.atencao-box b {
+  font-weight: bold;
+}
+.atencao-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.atencao-item {
+  margin-bottom: 10px;
+}
+.arrow {
+  margin-right: 5px;
+  color: #000;
+}
+
+
+
+
+.participacao-box {
+  background-color: #e6f0fa;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.participacao-box b {
+  font-weight: bold;
+}
+.participacao-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.participacao-list li {
+  margin-bottom: 5px;
+}
+.participacao-obs {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+th, td {
+  border: 1px solid #000;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+th {
+  background-color: #d9d9d9;
+  text-align: center;
+  vertical-align: middle;
+}
+td {
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.meta-title {
+  font-weight: bold;
+}
+.meta-item {
+  margin-left: 10px;
+  display: block;
+  margin-top: 3px;
+}
+
+.importante-box {
+  background-color: #f9f9e6;
+  border: 1px solid #000;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.importante-box b {
+  font-weight: bold;
+}
+.importante-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.importante-item {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.checkmark {
+  margin-right: 8px;
+  font-size: 16px;
+  color: black;
+  margin-top: 2px;
+}
